@@ -1,8 +1,11 @@
-package Catalogo;
+package catalogo.adapter.out.memory;
+
+import catalogo.domain.model.Livro;
+import catalogo.domain.ports.LivroRepository;
 
 import java.util.*;
 
-public class InMemoryLivroRepository implements LivroRepository{
+public class InMemoryLivroRepository implements LivroRepository {
 
     private final Map<UUID, Livro> banco = new HashMap<>();
 
@@ -21,5 +24,11 @@ public class InMemoryLivroRepository implements LivroRepository{
     public List<Livro> listarTodos() {
         return new ArrayList<>(banco.values());
     }
+
+    @Override
+    public void close() {
+
+    }
+
 
 }

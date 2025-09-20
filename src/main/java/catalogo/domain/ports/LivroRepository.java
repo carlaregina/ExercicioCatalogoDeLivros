@@ -1,4 +1,6 @@
-package Catalogo;
+package catalogo.domain.ports;
+
+import catalogo.domain.model.Livro;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,5 +14,6 @@ public interface LivroRepository {
 
     List<Livro> listarTodos();
 
+    void close();
 }
 

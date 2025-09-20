@@ -1,4 +1,7 @@
-package Catalogo;
+package catalogo.adapter.in.controller;
+
+import catalogo.domain.model.Livro;
+import catalogo.domain.service.LivroService;
 
 import java.util.*;
 

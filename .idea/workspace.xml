@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9765fec-af90-4a41-853f-13863acfd9fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/InMemoryLivroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/catalogo/adapter/out/memory/InMemoryLivroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/JdbcLivroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/catalogo/adapter/out/jdbc/JdbcLivroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/catalogo/domain/model/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/LivroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/catalogo/adapter/in/controller/LivroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/LivroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/catalogo/domain/ports/LivroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/LivroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/catalogo/domain/service/LivroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/catalogo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "carlaregina"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:carlaregina/ExercicioCatalogoDeLivros.git",
+    "accountId": "c352e6a0-d4c9-4e61-9703-44bcfe190090"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -39,8 +54,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Maven.ExercicioCatalogoDeLivros [clean].executor": "Run",
+    "Maven.ExercicioCatalogoDeLivros [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -49,13 +66,18 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="wrapper:wrapper" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Catalogo.Main" />
+      <option name="MAIN_CLASS_NAME" value="catalogo.Main" />
       <module name="ExercicioCatalogoDeLivros" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Catalogo.*" />
+          <option name="PATTERN" value="Catalogo.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
